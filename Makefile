@@ -14,4 +14,4 @@ maxWeightLib.o: maxWeightLib.c
 my402list.o: my402list.c my402list.h
 	gcc $(CFLAGS) -g -c -Wall my402list.c
 clean:
-	rm -f *.o 
+	rm -f *.o maxWeight 
